@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    >
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_weight="1"
+        android:id="@+id/restartView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:onClick="restartViewOnclick"
+        android:text="restart"
+        android:textColor="#FF3E3E"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        tools:showIn="@layout/game_layout" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:gravity="end"
+        android:layout_weight="1"
+        android:id="@+id/currentScoreView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FF3E3E"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        tools:showIn="@layout/game_layout" />
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textColor="#FF3E3E"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        tools:showIn="@layout/game_layout" />
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:gravity="end"
+        android:id="@+id/scoreView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF3E3E"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        tools:showIn="@layout/game_layout" />
+</LinearLayout>

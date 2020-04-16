@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="fill_vertical|center"
+    android:orientation="vertical"
+    android:padding="32sp"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/welcome_layout" />
+
+    <include layout="@layout/game_layout" />
+
+    <include layout="@layout/victory_layout" />
+
+</LinearLayout>
